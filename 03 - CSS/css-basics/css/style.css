@@ -1,0 +1,34 @@
+#red{
+    color: red;
+}
+h1{
+    color: #920676;
+    font-size: 64px;
+    background-color: aqua;
+}
+.violet{
+    background-color: violet;
+}
+p{
+    font-family: fantasy;
+    font-size: 0.5rem;
+}
+
+h3{
+    background-color: aquamarine;
+}
+
+/* Ändra bakgrundsfärg och textfärg på alla LI-element */
+li{
+    color: aquamarine;
+    background-color: blue;
+}
+
+h1{
+    color: hotpink;
+    font-size: 12px;
+}
+
+h1:hover{
+    background-color: salmon;
+}
