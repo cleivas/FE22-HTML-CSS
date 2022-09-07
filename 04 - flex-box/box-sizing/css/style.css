@@ -1,0 +1,9 @@
+p{
+    border: solid 3px darkblue;
+    padding: 1rem;
+    width: 50%;
+}
+
+.border-box{
+    box-sizing: border-box;
+}

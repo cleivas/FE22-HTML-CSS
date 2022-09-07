@@ -1,0 +1,38 @@
+/* ändra mellan row och column
+ändra storlekarna på era items
+ändra justify-content, align-items och align-content */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+ol{
+    border: 2px solid blueviolet;
+    background-color: lightskyblue;
+    height: 100vh;/*100% av viewport height*/
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+li{
+    list-style-type: none; /*Tar bort siffrorna i listan*/
+    border: 2px solid green;
+    background-color: white;
+
+    flex-basis: 100px;
+    height: 2rem;
+    order: 1;
+}
+.big{
+    height: 4rem;
+    order: 2;
+}
