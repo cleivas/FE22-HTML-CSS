@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+article{
+    border: 2px limegreen solid;
+    background-color: lightcyan;
+    padding: 1rem;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    margin-bottom: 1rem;
+}
+
+.span-1{
+    flex-basis: 22%;
+}
+.span-2{
+    flex-basis: 48%;
+}
+.span-3{
+    flex-basis: 74%;
+}
+.span-4{
+    flex-basis: 100%;
+}
+
+img{
+    width: 100%;
+}
