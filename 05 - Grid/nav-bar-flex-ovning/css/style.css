@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.5rem;
+}
+a{
+    border-right: 2px rgb(226, 226, 226) solid;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(123, 123, 123);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color .5s;
+}
+
+a:hover{
+    color: #ae8e42;
+}
+
+a:last-child{
+    border: none;
+}
