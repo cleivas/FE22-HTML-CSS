@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* border: 2px solid black; */
+    flex-basis: 80%;
+
+    border-radius: 20px;
+}
+
+img{
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card>p{
+    padding: 1.5em;
+}
+
+button{
+    font-size: 1.2em;
+    padding: .5em;
+    border-radius: 20px;
+    margin: 0 1em 1em;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 500px){
+    .card{
+        flex-basis: calc( (100% - 1rem) / 2 );
+    }
+}
+
+@media screen and (min-width: 820px){
+    .card{
+        flex-basis: calc( (80% - 2rem) / 3 );
+    }
+}
