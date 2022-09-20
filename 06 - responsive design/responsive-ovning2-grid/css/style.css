@@ -32,7 +32,7 @@ footer{
 
 @media screen and (min-width: 400px) {
     .container{
-        grid-template-rows: 4rem 20rem 4rem 6rem;
+        grid-template-rows: 4rem auto 4rem 6rem;
         grid-template-columns: 1fr 2fr 3fr;
     }
     nav{
@@ -51,7 +51,7 @@ footer{
 
 @media screen and (min-width: 850px){
     .container{
-        grid-template-rows: 4rem 20rem 6rem;
+        grid-template-rows: 4rem auto 6rem;
         grid-template-columns: 1fr 2fr 3fr 3fr;
     }
     nav{
